@@ -13,7 +13,7 @@ resource "aws_instance" "one" {
   }
 }
 resource "aws_s3_bucket" "two" {
-  bucket = "syed"
+  bucket = "syed004"
 }
 resource "aws_ebs_volume" "three" {
   availability_zone = "us-east-1a"
