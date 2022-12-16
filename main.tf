@@ -15,7 +15,7 @@ resource "aws_instance" "one" {
 resource "aws_s3_bucket" "two" {
   bucket = "my-tf-test-bucket"
  tags = {
-    Name        = " terraform"
+    Name        = " terraform_one"
   }
 }
 resource "aws_ebs_volume" "three" {
