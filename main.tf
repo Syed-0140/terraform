@@ -13,9 +13,9 @@ resource "aws_instance" "one" {
   }
 }
 resource "aws_s3_bucket" "two" {
-  bucket = "syed_buket"
+  bucket = "my-tf-test-bucket"
  tags = {
-    Name        = " syedbucket"
+    Name        = " terraform"
   }
 }
 resource "aws_ebs_volume" "three" {
