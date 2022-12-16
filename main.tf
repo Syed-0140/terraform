@@ -13,9 +13,9 @@ resource "aws_instance" "one" {
   }
 }
 resource "aws_s3_bucket" "two" {
-  bucket = "syed buket"
+  bucket = "syed_buket"
  tags = {
-    Name        = " syed bucket"
+    Name        = " syedbucket"
   }
 }
 resource "aws_ebs_volume" "three" {
