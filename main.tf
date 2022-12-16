@@ -6,6 +6,7 @@ provider "aws" {
 resource "aws_instance" "one" {
   ami           = "ami-064bd2d44a1d6c097"
   instance_type = "c5a.4xlarge"
+  availability_zone = "us-east-1b"
   
   tags = {
     Name = "terrainstance"
