@@ -13,10 +13,7 @@ resource "aws_instance" "one" {
   }
 }
 resource "aws_s3_bucket" "two" {
-  bucket = "my-tf-test-bucket"
- tags = {
-    Name        = " terraform_one"
-  }
+  bucket = "syed"
 }
 resource "aws_ebs_volume" "three" {
   availability_zone = "us-east-1a"
